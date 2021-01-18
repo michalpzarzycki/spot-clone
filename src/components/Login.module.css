@@ -1,0 +1,41 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+}
+
+.logo {
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    padding-top: calc(472 / 1546 * 100%);
+    position: relative;
+}
+.logo > div {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background-image: url('../img/spotify-logo-1920x1080_fouoik.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translate(-50%, 0);
+}
+.button {
+    flex: 1;
+    display: grid;
+    place-items: center;
+    color: white;
+}
+.button > a {
+    padding: 20px;
+    border-radius: 90px;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #1db954;
+    cursor: pointer;
+}
