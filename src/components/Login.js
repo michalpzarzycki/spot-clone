@@ -1,4 +1,5 @@
-import styles from './Login.module.css'
+import styles from './Login.module.css';
+import {loginURL} from '../spotify/spotify' 
 
 
 function Login() {
@@ -8,7 +9,7 @@ function Login() {
                 <div></div>
             </section>
             <section className={styles.button}>
-                <a>SIGN IN</a>
+                <a href={loginURL}>SIGN IN</a>
             </section>
         </div>
     )
