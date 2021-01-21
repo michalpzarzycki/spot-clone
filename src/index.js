@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './App'; 
 import reportWebVitals from './reportWebVitals';
+import { SpotifyProvider } from './context';
+
+const SpotifyDataContext = React.createContext();
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+   <SpotifyProvider>
+     <App />
+   </SpotifyProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
