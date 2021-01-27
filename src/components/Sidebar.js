@@ -24,6 +24,7 @@ function Sidebar() {
             <LibraryBooksIcon fontSize="small" color="#000000"/>
               <h4>Library</h4>  
             </div>
+            <p><strong style={{color:"white"}}>PLAYLISTS</strong></p>
             <hr></hr>
             {state.playlist && state.playlist.items.map(item => (
                   <div  className={styles.optionDiv}>
