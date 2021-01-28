@@ -24,6 +24,11 @@ const reducer = (state, action) => {
                 ...state,
                 playlist: action.payload
             }
+        case "SET_WEEKLYDISC":
+            return {
+                ...state,
+                weeklyDisc:action.payload
+            }
     }
 }
 

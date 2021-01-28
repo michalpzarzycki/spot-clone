@@ -1,0 +1,20 @@
+.mainDiv {
+    height: 20vh;
+    background-color: transparent;
+    display: flex;
+    padding: 30px 50px 0px 50px; 
+}
+.mainDiv > img {
+    flex: 0.25;
+    object-fit: contain;
+    width: 192px;
+    height: 192px;
+}
+.bannerDetails {
+    flex: 0.75;
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}

@@ -28,6 +28,10 @@ function App() {
     spotify.getUserPlaylists().then(playlist => {
      actions.setPlaylist(playlist)
     })
+
+    spotify.getPlaylist('37i9dQZF1DX3Sp0P28SIer').then(weeklyDisc => {
+      actions.setWeeklyDisc(weeklyDisc)
+    })
   }
 }, [])
 

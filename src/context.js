@@ -21,6 +21,11 @@ const SpotifyProvider = (props) => {
             if(playlist) {
                 dispatch({type:"SET_PLAYLIST", payload: playlist})
             }
+        },
+        setWeeklyDisc: (weeklyDisc) => {
+            if(weeklyDisc) {
+                dispatch({type:"SET_WEEKLYDISC", payload: weeklyDisc})
+            }
         }
     }
 
