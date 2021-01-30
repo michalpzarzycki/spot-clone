@@ -1,5 +1,10 @@
 .mainDiv {
     flex: 0.8;
     background-color: blueviolet;
-    
+    overflow-y: overlay;
+
+}
+
+.mainDiv::-webkit-scrollbar {
+    display: none;
 }

@@ -6,6 +6,7 @@ function Body() {
         <div className={styles.mainDiv}>
             <Navbar />
             <Banner />
+            
         </div>
     )
 }
